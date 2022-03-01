@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+    font-family: 'Manrope', sans-serif;
+    color: #FFF;
+};
+
+
+
+img {
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 70px
+}
+
+ .container{
+     height: 50;
+     line-height: 30px;
+     word-spacing: 50px;
+     padding-top: 26px;
+     left: 90px; /* posiciona a 90px para a esquerda */ 
+     padding: 2px 10px;
+     display: inline-block;
+ }
+
+
+
+ .home {
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+
+
+
+.Menu {
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+
+
+.recompensas {
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+                                                              
+
+.Gifcards {
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+
+
+.lojas {
+    font-weight: 400;
+    display: inline-block;
+};
+
+
+
+
+
+.greatcoffee{
+    padding: 2px 10px;
+};
+
