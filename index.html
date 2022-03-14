@@ -9,24 +9,87 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
-<div class="container">
-    <nav>
-    <img src="Imagens/logo-desktop.svg" alt="Simples Ideias">
-    <div class="home">Home</div>
-    <div class="Menu">Menu</div>
-    <div class="recompensas">Recompensas</div>
-    <div class="Gifcards">Gift Cards</div>
-    <div class="lojas">lojas</div> 
-</nav>
-</div>
+<script src="app.js"></script>
     </head>
-    <header>
-        <aside>
-        <div class="titlo">
-            <title>Great Coffe</title>
-           </div> 
-        </aside>                             
-</header>
-    <body>                                                               <!-- ESTAMOS TENTANDO CRIAR UM ESPAÇAMENTO ENTRE AS PALAVRAS -->
+    <body>
+        <header class="header">
+            <img 
+            class="logo-mobile"
+            src="./imagens/logo-mobile.svg" 
+            alt="logo-mobile"
+            />
+            <img 
+            class="logo-desktop"
+            src="./imagens/logo-desktop.svg" 
+            alt="logo-desktop"
+            />
+
+            <img
+        align="right"
+        class="blur-2"
+        src="./imagens/blur-2.png"
+        alt="blur-2"
+        />
+<div class="sidebar">
+    <nav id="nav-mobile" type="'active">
+    <button id="btn-primary">
+        <img class="button-open"
+        src="./imagens/menu-buguer-open.svg"
+        alt="button-open"
+        />
+    </button>
+    <ul class="menu">
+        <li>
+            <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee"
+            >Home</a>
+        </li>
+        <li>
+            <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee"
+            >Menu</a>
+        </li>
+        <li>
+            <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee"
+            >Recompensas</a>
+        </li>
+        <li>
+            <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee"
+            >Gift Cards</a>
+        </li>
+        <li>
+            <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee"
+            >Lojas</a>
+        </li>
+    </ul>
+    </nav>
+</div>
+
+<!-- clique modo-mobile -->
+<nav class="nav">
+    <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee">Home</a>
+    <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee">Menu</a>
+    <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee">Recompensas</a>
+    <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee">Gift Cards</a>
+    <a class="nav-link" href="https://app.rocketseat.com.br/discover/challenges/rocketcoffee">Lojas</a>
+</nav>
+<button class="button-header" type="button">
+    <strong>Pegar meu café &gt;</strong>
+</button>
+        </header>
+        <main class="main">
+            <p class="text-mobile">
+                O café que fará seu código decolar para o próximo nível.
+            </p>
+            <button class="button-pegar-cafe" type="button">
+                <strong>Pegar meu café</strong>
+            </button>
+            <div class="main-titles">
+                <h1 class="title">Great Coffe</h1>
+                <h2 class="subtitle">&lt;Great Code&sol;&gt; </h2>
+            </div>
+            <img
+            class="img-coffe"
+            src="./imagens/rocket-coffee.png"
+        </main>
+        <img class="blur-1" src="./imagens/blur-1.png" alt="blur 1"/>
     </body>
 </html>
